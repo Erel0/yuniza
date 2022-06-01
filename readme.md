@@ -16,11 +16,6 @@ En çok kullanılandan en az kullanılana göre sıralama
 
 en önemlileri diğerleri zorlayabilir çoğu yerde kullanılmaz bilmek iyidir ama yinede.
 
-# JavaScript Higher Order Functions & Arrays 
-
-* https://www.youtube.com/watch?v=rRgD1yVwIvE
-
-- genel video üstteki 3 video ile js hakkında akar gidersin
 
 
 # VUE
@@ -29,6 +24,15 @@ en önemlileri diğerleri zorlayabilir çoğu yerde kullanılmaz bilmek iyidir a
 
 [TIKLA](https://sfc.vuejs.org/#eyJBcHAudnVlIjoiPHRlbXBsYXRlPlxuICA8aDE+e3sgbXNnIH19PC9oMT5cbiAgPGlucHV0IHYtbW9kZWw9XCJtc2dcIj5cbjwvdGVtcGxhdGU+XG5cbjxzY3JpcHQgc2V0dXA+XG5pbXBvcnQgeyByZWYgfSBmcm9tICd2dWUnXG5cbmNvbnN0IG1zZyA9IHJlZignU0EnKVxuXG4vLyBFTiDDh09LIEtVTExBTklMQU4gLT4gcmVmXG5cbi8vIGNvbnN0IG1zZyA9IHJlZignSGVsbG8gV29ybGQhJylcbi8vIG1zZyBkaXllIGJpciB2YXJpYWJsZSBvbHXFn3R1cnVsdXlvciBidW51biByZWYgaWxlIG9sdcWfdHVydWxtYSBzZWJlYmkgdnVlLmpzIGluIGJpciDDtnplbGxpxJ9pIG9sYW4gZGluYW1payBvbGFyYWsgbyBjb25zdGFudCDEsSBkZcSfacWfdGlyaWxlYmlsbWVzaVxuXG4vLyB2LW1vZGVsIFxuLy8gdi1tb2RlbCBpbnB1dGxhcmRhIHNlbGVjdGJveGxhcmRhIHZleWEgaW5wdXQgdGFyesSxIGLDvHTDvG4gaHRtbCBibG9rbGFyxLFuZGEga3VsbGFuxLFsYWJpbGl5b3IuIFxuXG4vLzxpbnB1dCB2LW1vZGVsPVwibXNnXCI+ICB0ZW1wbGF0ZSB0YWdsYXLEsSBpw6dlcmlzaW5kZSBhw6fEsWxkxLHEn8SxbmRhLCBzY3JpcHQgdGFnxLEgacOnZXJpc2luZGUgbXNnIGRpeWUgYWRsYW5kxLFyxLFsYW4gY29uc3RhbnRhIGJpbmQgb2x1eW9yIHZlIG8gaW5wdXRhIGRlxJ9lciBnaXJpbGRpxJ9pbmRlIGJpemltIGNvbnN0IG1zZyB2YXJpYWJsZcSxbcSxeiBkaW5hbWlrIG9sYXJhayBnw7xuY2VsbGVuaXlvci5cbjwvc2NyaXB0PlxuXG4iLCJpbXBvcnQtbWFwLmpzb24iOiJ7XG4gIFwiaW1wb3J0c1wiOiB7XG4gICAgXCJ2dWVcIjogXCJodHRwczovL3NmYy52dWVqcy5vcmcvdnVlLnJ1bnRpbWUuZXNtLWJyb3dzZXIuanNcIlxuICB9XG59In0=)
 
+
+# BAŞTAN SONA VUE ANLATIM (ÖNEMLİ)
+
+- atılan dakikadan başla (33.dk)
+
+https://youtu.be/jYtYqo3BPbo?t=1979
+
+
+# ÖRNEK TEMPLATE
 
 Aşağıdaki kodu dikkate almadan üstteki url ye tıkla oradan direkt olarak kodların kullanıldığı yeri görebilirsin.
 
