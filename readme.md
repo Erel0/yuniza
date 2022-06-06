@@ -75,4 +75,21 @@ const msg = ref('SA')
 php artisan make:resource UserTestResource
 ```
 
+![image](https://user-images.githubusercontent.com/89553246/172152844-068028bc-3c4f-4d2a-b457-0ff555253416.png)
+
+```
+Resources oluşturduğumuzda ismi önemli değil ancak isim oluşturulan resourcesın developer tarafından tanınabilmesi için önemli . Örnek PostResources, UserResources, Department Resources gibi.
+```
+
+![image](https://user-images.githubusercontent.com/89553246/172153189-d07aabee-627a-42b7-a2bf-2d0fa0cc81dd.png)
+
+```
+    public function toArray($request)
+    {
+        return parent::toArray($request);
+    }
+```
+
+Üstteki kod bloğu alt kısımlarda editlenecektir . Bizim için önemli olan bu kısımdır.
+
 
