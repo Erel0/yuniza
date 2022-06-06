@@ -93,3 +93,17 @@ Resources oluşturduğumuzda ismi önemli değil ancak isim oluşturulan resourc
 Üstteki kod bloğu alt kısımlarda editlenecektir . Bizim için önemli olan bu kısımdır.
 
 
+### Yeni Controller Oluşturulması
+
+```
+php artisan make:controller UserTestController
+```
+
+![image](https://user-images.githubusercontent.com/89553246/172154104-0fc346b9-0303-4460-b045-8494d55f7010.png)
+
+
+```
+Route::get('/test', [UserTestController::class, "test"]);
+```
+
+![image](https://user-images.githubusercontent.com/89553246/172153923-ce5207a2-df4c-47bb-9d37-4d8c03393a01.png)
