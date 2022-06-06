@@ -185,4 +185,24 @@ Alttaki resimde commentlerin kaldırıldığını ve if else bloklarının kulla
 
 
 
+## Response Kodları
 
+API yazılırken dikkat edilmesi gereken response kodları aşağıda listelenmiştir. Diğer response kodları için url ye gidebilirsiniz.
+
+https://metamug.com/article/status-codes-for-rest-api.html
+
+Örnek Laravel Kullanım
+
+`return response(['status' => 'error', 'msg' => 'error'], 409);`
+
+```
+HTTP response status codes
+HTTP response status codes indicate whether a specific HTTP request has been successfully completed. Responses are grouped in five classes:
+
+Informational responses (100–199)
+Successful responses (200–299)
+Redirection messages (300–399)
+Client error responses (400–499)
+Server error responses (500–599)
+
+```
