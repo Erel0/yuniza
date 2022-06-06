@@ -144,6 +144,24 @@ Normalde hiçbir şey değiştirilmediğinde api bize alttaki gibi döner
 
 üstteki kod ile değiştirdiğimizde bu api dan bize lazım olan kısımları alabiliriz.
 
+![image](https://user-images.githubusercontent.com/89553246/172158288-1e00a19d-e265-4f87-80ed-b073247e538a.png)
+
+Üstteki resimde görüldüğü gibi api bize id,email,display_name ve avatar döndürüyor.
+
+
+Örnek olarak user_id kullanılarak employee table ından verileri alalım.
+
+Alttaki resimde employee table ındaki sütunlar görülmekte 
+![image](https://user-images.githubusercontent.com/89553246/172158813-7becba4b-dd0b-400b-a231-1b0559076840.png)
+
+`$this->id user table ından çektiğimz için bizim user_id miz ve employee table ında user_id sütunumuz bulunmakta böylece altta görüldüğü gibi kod satırını yazdığımızda altta 2.resimde görüldüğü gibi user resources kullanılarak employee tableından veri çekilebilmekte`
+![image](https://user-images.githubusercontent.com/89553246/172159405-8af273c8-c699-49a2-8b2f-ba9666d0361b.png)
+
+![image](https://user-images.githubusercontent.com/89553246/172159750-31d2b2b0-d446-4462-b8ad-af06846661b7.png)
+
+
+
+
 
 
 
