@@ -163,6 +163,19 @@ Alttaki resimde employee table ındaki sütunlar görülmekte
 ![image](https://user-images.githubusercontent.com/89553246/172159750-31d2b2b0-d446-4462-b8ad-af06846661b7.png)
 
 
+# Api POST
+
+Bu kısımda post gönderilebilmesi için postman kullanılacaktır
+
+https://www.postman.com/downloads/ 
+
+![image](https://user-images.githubusercontent.com/89553246/172166308-f1cfc754-f4ca-48e7-ac82-1ddbb9c4094a.png)
+
+![image](https://user-images.githubusercontent.com/89553246/172166433-7eb1916f-aad4-42cd-bbc7-452c3d4549bc.png)
+
+![image](https://user-images.githubusercontent.com/89553246/172166737-65ba53ac-0720-433c-ba6b-1e6a43d8136e.png)
+
+
 
 
 
