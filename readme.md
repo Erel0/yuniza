@@ -67,4 +67,12 @@ const msg = ref('SA')
 
 
 
+# API RESOURCES
+
+![image](https://user-images.githubusercontent.com/89553246/172152357-17a4b00c-cd59-4518-8224-aa3eb7f644ad.png)
+
+```
+php artisan make:resource UserTestResource
+```
+
 
