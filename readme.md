@@ -78,7 +78,7 @@ php artisan make:resource UserTestResource
 ![image](https://user-images.githubusercontent.com/89553246/172152844-068028bc-3c4f-4d2a-b457-0ff555253416.png)
 
 ```
-Resources oluşturduğumuzda ismi önemli değil ancak isim oluşturulan resourcesın developer tarafından tanınabilmesi için önemli . Örnek PostResources, UserResources, Department Resources gibi.
+Resources oluşturduğumuzda ismi önemli değil ancak isim oluşturulan resourcesın developer tarafından tanınabilmesi için önemli . Örnek PostResources, UserResources, Department Resources gibi. Dökümantasyonu incelediğinde direkt modele bağlı bir şekilde => php artisan make:resource User --collection oluşturulabiliyor fakat önerim => php artisan make:resource UserTestResource bu şekilde kullanılması.
 ```
 
 ![image](https://user-images.githubusercontent.com/89553246/172153189-d07aabee-627a-42b7-a2bf-2d0fa0cc81dd.png)
@@ -107,3 +107,6 @@ Route::get('/test', [UserTestController::class, "test"]);
 ```
 
 ![image](https://user-images.githubusercontent.com/89553246/172153923-ce5207a2-df4c-47bb-9d37-4d8c03393a01.png)
+
+![image](https://user-images.githubusercontent.com/89553246/172156139-2c37d404-14ec-4c63-bb4e-1a9fee0baff7.png)
+
