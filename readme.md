@@ -110,3 +110,34 @@ Route::get('/test', [UserTestController::class, "test"]);
 
 ![image](https://user-images.githubusercontent.com/89553246/172156139-2c37d404-14ec-4c63-bb4e-1a9fee0baff7.png)
 
+![image](https://user-images.githubusercontent.com/89553246/172156317-bd7dc43f-327d-4a97-bd2e-4405267cab1a.png)
+
+
+data içerisinde tüm userlar döndürülüyor User::all() kullanılarak
+
+### Resources değiştirilmesi
+
+Normalde hiçbir şey değiştirilmediğinde api bize alttaki gibi döner
+
+![image](https://user-images.githubusercontent.com/89553246/172157212-7c535ae1-6dda-4b8f-8ca5-274a26bf38ce.png)
+
+
+`return parent::toArray($request);` kod bloğunu 
+![image](https://user-images.githubusercontent.com/89553246/172157300-9f813d69-22b7-4e55-9402-d36fef4e34ef.png)
+
+```
+    public function toArray($request)
+    {
+        return [
+            'id' => $this->id,
+            'email' => $this->email,
+            'display_name' => $this->display_name,
+            'avatar' => $this->avatar,
+
+        ];
+    }
+```
+
+
+
+
