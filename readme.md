@@ -177,6 +177,11 @@ https://www.postman.com/downloads/
 
 
 
+## Örnek Kullanım
+
+Alttaki resimde commentlerin kaldırıldığını ve if else bloklarının kullanıldığını düşününüz.
+
+![image](https://user-images.githubusercontent.com/89553246/172187979-706a1181-3ddf-46b2-bbf6-8163aaea7074.png)
 
 
 
