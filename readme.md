@@ -152,6 +152,7 @@ Normalde hiçbir şey değiştirilmediğinde api bize alttaki gibi döner
 Örnek olarak user_id kullanılarak employee table ından verileri alalım.
 
 Alttaki resimde employee table ındaki sütunlar görülmekte 
+
 ![image](https://user-images.githubusercontent.com/89553246/172158813-7becba4b-dd0b-400b-a231-1b0559076840.png)
 
 `$this->id user table ından çektiğimz için bizim user_id miz ve employee table ında user_id sütunumuz bulunmakta böylece altta görüldüğü gibi kod satırını yazdığımızda altta 2.resimde görüldüğü gibi user resources kullanılarak employee tableından veri çekilebilmekte`
