@@ -122,8 +122,12 @@ Normalde hiçbir şey değiştirilmediğinde api bize alttaki gibi döner
 ![image](https://user-images.githubusercontent.com/89553246/172157212-7c535ae1-6dda-4b8f-8ca5-274a26bf38ce.png)
 
 
-`return parent::toArray($request);` kod bloğunu 
+`return parent::toArray($request);` kod satırını
+
+
 ![image](https://user-images.githubusercontent.com/89553246/172157300-9f813d69-22b7-4e55-9402-d36fef4e34ef.png)
+
+
 
 ```
     public function toArray($request)
@@ -137,6 +141,8 @@ Normalde hiçbir şey değiştirilmediğinde api bize alttaki gibi döner
         ];
     }
 ```
+
+üstteki kod ile değiştirdiğimizde bu api dan bize lazım olan kısımları alabiliriz.
 
 
 
