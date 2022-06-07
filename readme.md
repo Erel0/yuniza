@@ -299,3 +299,6 @@ if (document.getElementById("app")) {
 
 * router
 * views
+
+![image](https://user-images.githubusercontent.com/89553246/172323801-eaf8d6b2-e3a7-4069-9e5a-d6b16d88e87b.png)
+
