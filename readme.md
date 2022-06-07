@@ -237,7 +237,7 @@ mix.js('resources/js/app.js', 'public/js').vue().postCss('resources/css/app.css'
 
 ## dashboard.blade.php
 
-replace 'you are logged' in with <router-view />
+replace `you are logged` in with `<router-view />`
 
 ```
 <x-app-layout>
