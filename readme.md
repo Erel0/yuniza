@@ -209,6 +209,16 @@ Server error responses (500–599)
 
 # Yeni Laravel Projesine Vue.js Entegrasyonu
 
+Yeni Projenin Oluşturulması
 
+`composer create-project laravel/laravel myNewVueApp`
+
+`composer require laravel/breeze`
+
+`php artisan breeze:install`
+
+`php artisan migrate --seed`
+
+`npm install && npm run dev`
 
 
