@@ -294,3 +294,8 @@ if (document.getElementById("app")) {
         .mount("#app")
 }
 ```
+
+`/resources/js` klasörü altında 2 adet yeni klasör oluşturun. 
+
+* router
+* views
