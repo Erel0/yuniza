@@ -239,6 +239,8 @@ mix.js('resources/js/app.js', 'public/js').vue().postCss('resources/css/app.css'
 
 replace `you are logged` in with `<router-view />`
 
+
+
 ```
 <x-app-layout>
     <x-slot name="header">
@@ -259,4 +261,14 @@ replace `you are logged` in with `<router-view />`
 </x-app-layout>
 
 ```
+
+## app.blade.php id=app
+
+in app.blade.php (resources/views/layouts/app.blade.php) add id after body div
+
+```
+<body class="font-sans antialiased">
+    <div class="min-h-screen bg-gray-100" id="app">
+```
+![image](https://user-images.githubusercontent.com/89553246/172321750-63b207d6-4665-4a57-af38-6b37da166dc4.png)
 
