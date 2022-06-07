@@ -397,5 +397,7 @@ Breeze ile kurulum yapıldığı için console da çakışmayı engellemek için
 `/resources/views/layouts/navigation.blade.php` içerisinde `:class` olan tüm yerleri `x-bind:class` ile değiştiriniz
 
 
+### Örnek Repo
 
+Public Repo https://github.com/Erel0/myNewVueApp
 
