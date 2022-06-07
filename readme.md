@@ -384,6 +384,8 @@ require __DIR__ . '/auth.php';
 
 ```
 
+![image](https://user-images.githubusercontent.com/89553246/172343007-f156b895-4c97-4cf8-b8d1-5e1514a49ced.png)
+
 
 
 ### Alpine.js ile çakışmayı engelleme
