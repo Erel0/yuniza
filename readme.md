@@ -262,9 +262,11 @@ replace `you are logged` in with `<router-view />`
 
 ```
 
-## app.blade.php id=app
+## app.blade.php id="app"
 
 in app.blade.php (resources/views/layouts/app.blade.php) add id after body div
+
+Vue.js burada render olacaktır
 
 ```
 <body class="font-sans antialiased">
