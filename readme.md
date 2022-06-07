@@ -274,3 +274,23 @@ Vue.js burada render olacaktır
 ```
 ![image](https://user-images.githubusercontent.com/89553246/172321750-63b207d6-4665-4a57-af38-6b37da166dc4.png)
 
+
+## app.js (/resources/js/app.js)
+
+Alttaki kod bloğunu app.js içerisine ekleyerek Vue.js uygulamada başlamasını sağlayalım . 
+Commmente alınan `//import router from "./router"` ve `        //      .use(router)` bir sonraki adımda kaldırılacaktır.
+
+```
+///// VUE /////
+
+import { createApp } from "vue"
+//import router from "./router"
+
+if (document.getElementById("app")) {
+    createApp({
+        components: {}
+    })
+        //      .use(router)
+        .mount("#app")
+}
+```
