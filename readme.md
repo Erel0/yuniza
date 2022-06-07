@@ -302,3 +302,98 @@ if (document.getElementById("app")) {
 
 ![image](https://user-images.githubusercontent.com/89553246/172323801-eaf8d6b2-e3a7-4069-9e5a-d6b16d88e87b.png)
 
+
+### Alt dosyaların oluşturulması
+
+![image](https://user-images.githubusercontent.com/89553246/172339636-fda5ec0e-0aaa-4a47-a817-87440218cc67.png)
+
+router altında index.js file oluşturun içerisine
+
+```
+import { createRouter, createWebHistory } from "vue-router"
+
+import Home from "../views/Home.vue"
+
+const routes = [
+    {
+        path: "/",
+        name: "Home",
+        component: Home
+    },
+]
+export default createRouter({
+    history: createWebHistory(),
+    routes
+})
+```
+
+view içerisine Home.vue dosyası oluşturun
+
+```
+<template>selam</template>
+```
+
+Daha sonra yukarıda bahsetmiş olduğumuz `/resources/js/app.js` dosyası içerisinde  2 satır commenti kaldırınız.
+
+
+![image](https://user-images.githubusercontent.com/89553246/172340523-4cae6992-d95c-4be6-9606-0624850ba522.png)
+
+
+### in web.php (/routes/web.php)
+
+
+
+```
+<?php
+
+use Illuminate\Support\Facades\Route;
+
+
+Route::get('/', function () {
+    return view('welcome');
+});
+
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->middleware(['auth'])->name('dashboard');
+
+require __DIR__.'/auth.php';
+
+
+```
+
+Üstteki kısmı alttaki ile değiştirin
+
+
+```
+<?php
+
+use Illuminate\Support\Facades\Route;
+
+
+//Route::get('/', function () {
+//    return view('welcome');
+//});
+
+Route::get('/{any?}', function () {
+    return view('dashboard');
+})->middleware(['auth'])->name('dashboard')->where('any', '.*');
+
+
+require __DIR__ . '/auth.php';
+
+```
+
+
+
+### Alpine.js ile çakışmayı engelleme
+
+Breeze ile kurulum yapıldığı için console da çakışmayı engellemek için
+
+`/resources/views/components/dropdown.blade.php` içerisinde `@click` olan tüm yerleri `x-on:click` ile değiştiriniz
+
+`/resources/views/layouts/navigation.blade.php` içerisinde `:class` olan tüm yerleri `x-bind:class` ile değiştiriniz
+
+
+
+
