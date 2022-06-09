@@ -431,6 +431,8 @@ Public Repo https://github.com/Erel0/myNewVueApp
 
 ## API AUTH (Token Based Authentication)
 
+REST API LARAVEL SANCTUM AUTH -> https://laravel.com/docs/9.x/sanctum
+
 * Postman + Token Based Auth
 
 https://www.youtube.com/watch?v=MT-GJQIY3EU
