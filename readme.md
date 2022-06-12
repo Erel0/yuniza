@@ -429,6 +429,7 @@ Public Repo https://github.com/Erel0/myNewVueApp
 [Slot 2 (named slot)](https://sfc.vuejs.org/#eyJBcHAudnVlIjoiPHRlbXBsYXRlPlxuICBcbiAgPENvbXA+XG4gIFxuICA8dGVtcGxhdGUgdi1zbG90OmhlYWRlcj5cbiAgIFNFTEFNIEZST00gQ09NUCBOQU1FRCBTTE9UXG4gIDwvdGVtcGxhdGU+XG4gICAgXG4gICBTRUxBTSBGUk9NIE5PUk1BTCBTTE9UXG4gIFxuICA8L0NvbXA+XG4gIFxuICBcbiAgXG4gXG48L3RlbXBsYXRlPlxuXG48c2NyaXB0IHNldHVwPlxuaW1wb3J0IHsgcmVmIH0gZnJvbSAndnVlJ1xuaW1wb3J0IENvbXAgZnJvbSBcIi4vQ29tcC52dWVcIlxuICBcbi8vIGh0dHBzOi8vdnVlanMub3JnL2d1aWRlL2NvbXBvbmVudHMvc2xvdHMuaHRtbFxuXG5cbjwvc2NyaXB0PlxuXG4iLCJpbXBvcnQtbWFwLmpzb24iOiJ7XG4gIFwiaW1wb3J0c1wiOiB7XG4gICAgXCJ2dWVcIjogXCJodHRwczovL3NmYy52dWVqcy5vcmcvdnVlLnJ1bnRpbWUuZXNtLWJyb3dzZXIuanNcIlxuICB9XG59IiwiQ29tcC52dWUiOiI8dGVtcGxhdGU+XG4gIDxicj5cbiAgPHNsb3QgbmFtZT1cImhlYWRlclwiPiA8L3Nsb3Q+IDxicj48YnI+XG4gICAgXG4gIDxkaXY+U0VMQU1MQVIgRlJPTSBDT01QT05FTlQgU1RBUlQ8L2Rpdj4gPGJyPlxuICBcbiAgPHNsb3Q+PC9zbG90PiA8YnI+PGJyPlxuICBcbiAgPGRpdj5TRUxBTUxBUiBGUk9NIEVORDwvZGl2PlxuICBcbjwvdGVtcGxhdGU+In0=)
 
 
+
 ## API AUTH (Token Based Authentication)
 
 REST API LARAVEL SANCTUM AUTH -> https://laravel.com/docs/9.x/sanctum
@@ -436,3 +437,24 @@ REST API LARAVEL SANCTUM AUTH -> https://laravel.com/docs/9.x/sanctum
 * Postman + Token Based Auth
 
 https://www.youtube.com/watch?v=MT-GJQIY3EU
+
+## TOKEN AUTH (JWT -> JSON WEB TOKEN)
+
+* Laravel de rest api sanctum auth => Kullanıcı login olmak için username ve passwordu post ettiğinde veya kayıt olduğunda kendisine bir token döner . Bu token 1 saat , 1 gün , 1 hafta veya 1 yıl olabilir. Kullanıcı daha sonraki requestlerinde bu tokenı authorization bearer olarak girer. https://www.youtube.com/watch?v=MT-GJQIY3EU 44:30 - 45:20 arası bu işlemi görebilirsin.
+* Bu token genelde jwt olur ancak laravelde bu şifreli bir şekilde döner jwt ile decrypt edilemez.
+* Javascript php veya diğer dillerde post ederken bu token kullanılabilir/kullanılır.
+
+
+Tokenın girildiği kısım
+
+![image](https://user-images.githubusercontent.com/89553246/173253008-733a8ba4-33c1-464c-81f6-493bac7b8e72.png)
+
+
+Alttaki videoda jwt nin nasıl çalıştığı hakkında bilgi alabilirsin.
+
+https://www.youtube.com/watch?v=7Q17ubqLfaM
+
+### Önemli 
+
+* Vue - React gibi js frameworkleri tamamen backend de bulunan api ya request atarak çalışır. Login veya register aşamasında dönen token browserda tutulur (Cookie veya LocalStorage) ve daha sonraki requestlerde bu token kullanılır. Mobil içinde geçerlidir, mobilde api a istek atılır dönen token mobilde tutulur.
+* Bu işlemlerde postman kullanmamızın sebebi requestleri statusleri görebilmek ve düzenli bir şekilde kaydedip developerın işini kolaylaştırmaktır. Normalde requstler js , php veya diğer dillerde atılır dönen json datası kullanılır.
